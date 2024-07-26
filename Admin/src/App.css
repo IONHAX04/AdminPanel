@@ -1,42 +1,84 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+a {
+    text-decoration: none;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+main {
+    width: 75vw;
+    background-color: white;
+    /* padding: 10px; */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.main_container {
+    background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.checking {
+    margin: 40px;
+    padding: 10px;
 }
 
-.card {
-  padding: 2em;
+.p-button-label{
+    padding: 5px 15px;
 }
 
-.read-the-docs {
-  color: #888;
+
+.navbar{
+    display: flex;
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 10px 30px ;
+    justify-content: space-between;
+}
+
+.mainContents{
+    height: 100vh;
+    background-color: #d0d3d47a;
+}
+
+.p-skeleton{
+    margin: 15px 0px;
+}
+
+.p-skeleton.p-component::after{
+    width: 80%;
+}
+
+.contents{
+    margin: 20px;
+}
+
+.p-column-header-content{
+    padding: 8px 12px;
+}
+
+.p-button.p-component.p-button-outlined{
+    padding: 3px 12px;
+}
+
+.addButton{
+    align-items: center;
+    border: 1px solid #6366f1;
+    justify-content: center;
+    padding: 8px 8px 7px 8px;
+    border-radius: 50%;
+}
+
+.secondaryNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add{
+  background-color: rgb(0, 5, 46);
+}
+
+.p-progress-spinner{
+    height: 100vh;
+}
+
+.p-organizationchart-node-content{
+    padding: 10px 30px;
+    border-radius: 10px;
 }
