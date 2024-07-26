@@ -1,0 +1,8 @@
+.userProfile{
+    display: flex;
+    align-items: center;
+}
+
+.userProfile img{
+    margin: 0px 10px;
+}
